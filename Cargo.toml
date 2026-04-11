@@ -1,0 +1,9 @@
+[package]
+name = "cuda-fleet-topology"
+version = "0.1.0"
+edition = "2021"
+description = "Fleet vessel topology discovery and health monitoring"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
